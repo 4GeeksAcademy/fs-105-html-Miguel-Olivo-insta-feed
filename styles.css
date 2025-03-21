@@ -1,0 +1,86 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+}
+
+.post {
+    background-color: white;
+    width: 500px;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px black
+}
+
+.post .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-html i {
+    font-size: 2em; 
+    color: black; 
+}
+.text {
+    margin-left: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    line-height: 0.7;
+    font-size: 0.8em;
+}
+.text strong {
+    display: block;
+    font-size: auto;
+    font-weight: bold;
+    flex-grow: 1;
+}
+.puntos i {
+    font-size: 1.5em; 
+    cursor: pointer; 
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.buttoms {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.buttoms span {
+    cursor: pointer;
+}
+
+.like, .comment, .send {
+    margin-right: 10px;
+}
+
+.save {
+    margin-left: auto;
+}
+
+.likes {
+    padding: 10px;
+}
+
+.likes p {
+    font-size: 0.9em; 
+    line-height: 1.4;
+}
